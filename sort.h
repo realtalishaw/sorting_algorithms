@@ -1,5 +1,5 @@
-#ifndef _SORT_H_
-#define _SORT_H_
+#ifndef SORT_H_
+#define SORT_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,6 +12,7 @@
  * @prev: Pointer to the previous element of the list
  * @next: Pointer to the next element of the list
  */
+
 typedef struct listint_s
 {
 	const int n;
@@ -27,7 +28,7 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 int partitions(int *arr, size_t low, size_t pivot, size_t size);
 void sorts(int *array, size_t start, size_t end, size_t size);
-
+size_t list_len(const list_t *h);
 
 
 #endif
