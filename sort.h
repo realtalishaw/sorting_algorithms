@@ -30,5 +30,6 @@ int partitions(int *arr, size_t low, size_t pivot, size_t size);
 void sorts(int *array, size_t start, size_t end, size_t size);
 size_t list_len(const listint_t *h);
 void quick_sort_hoare(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
 
 #endif
