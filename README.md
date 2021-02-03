@@ -9,3 +9,11 @@
 
 2. Selection sort - Write a function that sorts an array of integers in ascending order using the Selection sort algorithm
 
+
+3. Quick sort - Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
+
+
+101-cocktail_sort_list.c - Write a function that sorts a doubly linked list of integers in ascending order using the Cocktail shaker sort algorithm
+
+
+107-quick_sort_hoare.c - Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
